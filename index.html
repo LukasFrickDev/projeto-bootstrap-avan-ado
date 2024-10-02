@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vila Aconchegante</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Vila Aconchegante</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fotos">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#localizacao">Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header">
+        <section id="home">
+            <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://via.placeholder.com/500x100" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://via.placeholder.com/500x101" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://via.placeholder.com/500x102" alt="">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-home" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-home" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img id="about-img" src="https://via.placeholder.com/500x500" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Sobre a Vila Aconchegante</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime est a ex distinctio perspiciatis atque tempore assumenda nulla, perferendis libero maiores accusamus pariatur harum exercitationem reiciendis quas. Quam, quas illum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fotos">
+            <div class="container">
+                <h2>Conheça a Vila</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300x300" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-text">Título da IMG</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="localizacao">
+            <div class="container">
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1"  class="nav-link active" type="button">Mapa</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2"  class="nav-link" type="button">Transportes</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3"  class="nav-link" type="button">Pontos Próximos</button>
+                </nav> 
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <img src="https://via.placeholder.com/500x500" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <h1>Localização</h1>
+                                <address>Rua Inventada Por Mim, CEP- 03489-980, São Paulo</address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <h2>Metro Próximo</h2>
+                        <img src="https://via.placeholder.com/500x500" alt="">
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <h2>Pontos Turisticos</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-text">Título da IMG</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-text">Título da IMG</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-text">Título da IMG</h4>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container contacts">
+                <form action="">
+                    <h2>Entre em Contato</h2>
+                    <label for="name">Nome</label>
+                    <input type="text" placeholder="Insira o seu Nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Insira o seu e-mail" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" placeholder="Insira seu Numero" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" placeholder="Insira a sua Mensagem" required></textarea>
+                </form>
+                <div class="social-ul">              
+                    <ul>
+                        <li class="social">
+                            <a href="">
+                                <img id="img-social" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="">
+                                <img id="img-social" src="https://www.theriver.asia/wp-content/uploads/2020/01/pngkey.com-airbnb-logo-png-605967.png" alt="">
+                            </a>
+                        </li >
+                        <li class="social">
+                            <a href="">
+                                <img id="img-social" src="https://seeklogo.com/images/B/booking-logo-937C69F36E-seeklogo.com.png" alt="">
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="">
+                                <img id="img-social" src="https://static.vecteezy.com/system/resources/previews/016/716/480/non_2x/whatsapp-icon-free-png.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </section>
+    </div>
+    <footer>
+        <h6>&copy;2024 Todos os direitos Reservados</h6>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
